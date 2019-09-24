@@ -14,7 +14,7 @@ public class FirefoxBrowser {
 		
 		driver.manage().window().maximize();
 		driver.findElement(By.className("username")).sendKeys("santoshkumar@swankinnovation.com");
-		driver.findElement(By.className("password")).sendKeys("vickypsk@8523");
+		driver.findElement(By.className("password")).sendKeys("rakeshsk@8523");
 		driver.findElement(By.className("oneButton")).click();
 	}
 
