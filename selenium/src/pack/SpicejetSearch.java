@@ -21,7 +21,7 @@ public class SpicejetSearch {
 	    driver.findElement(By.id("divpaxinfo")).click();
 	    driver.findElement(By.id("hrefIncAdt")).click();
 	    Thread.sleep(2000);
-	    for (int i=0; i<2;i++) {
+	    for (int i=0; i<3;i--) {
 	    	
 	    	driver.findElement(By.id("hrefIncAdt")).click();
 	    	
