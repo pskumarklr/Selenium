@@ -21,16 +21,20 @@ public class SpicejetSearch {
 	    driver.findElement(By.id("divpaxinfo")).click();
 	    driver.findElement(By.id("hrefIncAdt")).click();
 	    Thread.sleep(2000);
-	    for (int i=0; i<3;i--) {
+	    for (int i=0; i<=3;i++) {
 	    	
 	    	driver.findElement(By.id("hrefIncAdt")).click();
 	    	
 	    }
+	    
 	    driver.findElement(By.id("btnclosepaxoption")).click();
 	   //WebElement currency = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
 	    //Select curncy = new Select(currency);
 	    //curncy.deselectByValue("INR");;
 	    driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
+	    
+	    String t = driver.getTitle();
+	    System.out.println(t);
 	    
 	    Thread.sleep(5000);
 	    
