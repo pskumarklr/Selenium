@@ -18,7 +18,7 @@ public class LocalAndGlobalVariables {
 	}
 	public void kumar() {
 		int k=20; // local variable for kumar method
-		int s=15;
+		
 		System.out.println(k);
 		
 	}
