@@ -2,13 +2,13 @@ package working.with.actions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class MouseOverDestinations {
 
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver = new FirefoxDriver(); 
+		WebDriver driver = new ChromeDriver(); 
 		driver.get("http://newtours.demoaut.com");
         Actions as = new Actions(driver); 
         as.moveToElement(driver.findElement(By.linkText("Destinations"))).build().perform();
