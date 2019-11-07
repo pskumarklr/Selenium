@@ -14,6 +14,7 @@ public class Iframes1 {
 	  driver.manage().window().maximize();
 	
 	  driver.switchTo().frame(0);
+	  driver.switchTo().defaultContent();
 	  
 	
 	

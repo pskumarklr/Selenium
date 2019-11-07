@@ -11,8 +11,8 @@ public class LocatorTagName {
 
 	public static void main(String[] args) {
 		WebDriver driver = new FirefoxDriver();
-		driver.get("https://www.wikipedia.org/");
-		List<WebElement> allLinks = driver.findElements(By.tagName("s"));
+		driver.get("https://www.facebook.com/");
+		List<WebElement> allLinks = driver.findElements(By.tagName("submit"));
 		System.out.println("Links count is: "+allLinks.size());
 		
 		//driver.close();
