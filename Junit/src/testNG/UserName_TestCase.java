@@ -27,7 +27,7 @@ public class UserName_TestCase {
 	// Login With Valid user_name Details
 	@Test
 	public void EnterNumbers() {
-		driver.findElement(By.id("txtUsername")).sendKeys("123456");
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();	
 		}
@@ -42,7 +42,7 @@ public class UserName_TestCase {
 	
 	@Test
 	public void EnterAlphabetss() {
-		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.id("txtUsername")).sendKeys("123456");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");	
 		driver.findElement(By.id("btnLogin")).click();	
 		}
